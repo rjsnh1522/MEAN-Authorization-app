@@ -24,10 +24,10 @@ const app=express();
 
 const users =require('./routes/users');
 
-// const port =3000; this is for local
+const port =3000;
 
 // for heroku
-const port =process.env.PORT || 8080;
+// const port =process.env.PORT || 8080;
 
 
 
